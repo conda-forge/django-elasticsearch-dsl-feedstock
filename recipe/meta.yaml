@@ -1,5 +1,5 @@
 {% set name = "django-elasticsearch-dsl" %}
-{% set version = "7.3" %}
+{% set version = "8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-elasticsearch-dsl-{{ version }}.tar.gz
-  sha256: 084a790edf26131a7897d13a3b5c08a6e129ca145b2b3fcbc2b2d4e902a919c1
+  sha256: 64ee0612ced6d57515a6b7f29f1a3e1c2eea1996a6226fc72079a95c067b27ca
 
 build:
   number: 0
